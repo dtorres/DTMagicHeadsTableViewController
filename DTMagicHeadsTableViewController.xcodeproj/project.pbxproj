@@ -13,6 +13,8 @@
 		5A632F7314744BF7002E01D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A632F7114744BF7002E01D9 /* InfoPlist.strings */; };
 		5A632F7514744BF7002E01D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A632F7414744BF7002E01D9 /* main.m */; };
 		5A632F7914744BF7002E01D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A632F7814744BF7002E01D9 /* AppDelegate.m */; };
+		5A632F8114744C28002E01D9 /* DTMagicHeadsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A632F8014744C28002E01D9 /* DTMagicHeadsTableViewController.m */; };
+		5A632F881474596F002E01D9 /* DemoTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A632F871474596F002E01D9 /* DemoTVController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		5A632F6814744BF7002E01D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5A632F6A14744BF7002E01D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A632F6C14744BF7002E01D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5A632F7014744BF7002E01D9 /* DTMagicHeadsTableViewController-Info.plist */ = {isa = PBXFileReference; path = "DTMagicHeadsTableViewController-Info.plist"; sourceTree = "<group>"; };
+		5A632F7014744BF7002E01D9 /* DTMagicHeadsTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTMagicHeadsTableViewController-Info.plist"; sourceTree = "<group>"; };
 		5A632F7214744BF7002E01D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A632F7414744BF7002E01D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A632F7614744BF7002E01D9 /* DTMagicHeadsTableViewController-Prefix.pch */ = {isa = PBXFileReference; path = "DTMagicHeadsTableViewController-Prefix.pch"; sourceTree = "<group>"; };
-		5A632F7714744BF7002E01D9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A632F7614744BF7002E01D9 /* DTMagicHeadsTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTMagicHeadsTableViewController-Prefix.pch"; sourceTree = "<group>"; };
+		5A632F7714744BF7002E01D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A632F7814744BF7002E01D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A632F7F14744C28002E01D9 /* DTMagicHeadsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTMagicHeadsTableViewController.h; sourceTree = "<group>"; };
+		5A632F8014744C28002E01D9 /* DTMagicHeadsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTMagicHeadsTableViewController.m; sourceTree = "<group>"; };
+		5A632F861474596F002E01D9 /* DemoTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTVController.h; sourceTree = "<group>"; };
+		5A632F871474596F002E01D9 /* DemoTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTVController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			children = (
 				5A632F7714744BF7002E01D9 /* AppDelegate.h */,
 				5A632F7814744BF7002E01D9 /* AppDelegate.m */,
+				5A632F7F14744C28002E01D9 /* DTMagicHeadsTableViewController.h */,
+				5A632F8014744C28002E01D9 /* DTMagicHeadsTableViewController.m */,
+				5A632F861474596F002E01D9 /* DemoTVController.h */,
+				5A632F871474596F002E01D9 /* DemoTVController.m */,
 				5A632F6F14744BF7002E01D9 /* Supporting Files */,
 			);
 			path = DTMagicHeadsTableViewController;
@@ -153,6 +163,8 @@
 			files = (
 				5A632F7514744BF7002E01D9 /* main.m in Sources */,
 				5A632F7914744BF7002E01D9 /* AppDelegate.m in Sources */,
+				5A632F8114744C28002E01D9 /* DTMagicHeadsTableViewController.m in Sources */,
+				5A632F881474596F002E01D9 /* DemoTVController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DemoTVController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -22,7 +22,10 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    DemoTVController *contr = [[DemoTVController alloc] initWithStyle:UITableViewStylePlain];
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:contr.tableView];
     [self.window makeKeyAndVisible];
     return YES;
 }

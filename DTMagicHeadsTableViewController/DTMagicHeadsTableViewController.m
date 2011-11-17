@@ -77,6 +77,9 @@
         opaqueBG.tag = 1964;
         [opaqueBG setHidden:YES];
         [headerView addSubview:opaqueBG];
+        opaqueBG.autoresizingMask = (UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
+        transparentBG.autoresizingMask = (UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
+        
         [opaqueBG release];
         [transparentBG release];
     } else {

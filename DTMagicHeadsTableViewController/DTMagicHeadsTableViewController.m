@@ -41,7 +41,17 @@
             [[vista viewWithTag:1964] setHidden:NO];
             
             if (idi.row == (rows - 1)) {
-                float a = (idi.section + 1)*(rows*[self.tableView rowHeight]+[self.tableView sectionHeaderHeight]);
+                
+                float a = 0;
+                for (int i = 0; i < (idi.section +1); i++) {
+                    a += [self tableView:self.tableView heightForHeaderInSection:i];
+                    int numRows = [self.tableView numberOfRowsInSection:i];
+                    for (int u = 0; u < numRows; u++) {
+                        a += [self tableView:self.tableView heightForRowAtIndexPath:[NSIndexPath indexPathForRow:u inSection:i]];
+                    }
+                }
+                a -= [self tableView:self.tableView heightForHeaderInSection:idi.section];
+
                 UITableViewCell *cell = [self.tableView cellForRowAtIndexPath:idi];
                 if (currentOff.y > a) {
                     [cell setHidden:YES];

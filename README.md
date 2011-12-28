@@ -19,6 +19,8 @@ Fork it, work your magic and do a pull request
 
 ##License
 
+####MIT License
+
 Copyright (C) 2011 by Diego Torres
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

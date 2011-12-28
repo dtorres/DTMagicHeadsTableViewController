@@ -2,6 +2,7 @@
 
 This class does its best to approach the behavior of UITableView headers in the Notification Center.
 
+![Screenshot](http://i.imgur.com/tizPi.png)
 
 ##Implementation
 
